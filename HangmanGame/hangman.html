@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <h1>Hangman</h1>
+    <h3>Find the hidden word - Enter a letter</h3>
+
+    <!-- hangman part -->
+    <div class="pendu">
+
+    <hr class="line"/>
+    <hr class="basis"/>
+    <hr class="hrizontal"/>
+    <hr class="vertical"/>
+   
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="white" stroke-width="4" fill="#34495e" />
+      </svg>
+
+      <hr class="verticalHomme" />
+      <hr class="left-bras"/>
+      <hr class="right-bras"/>
+      <hr class="left-foot"/>
+      <hr class="right-foot"/>
+
+    </div> 
+
+    <p class="word">
+
+    </p>
+
+    <div class="endGame">
+        <h6>You Have Lost Sorry </h6>
+        <button id="btn">Try Again</button>
+    </div>
+
+    <div class="alreadyFind">
+        <h3>wrong Letter : </h3>
+    </div>
+
+    
+
+<script type="text/javascript" src="hangman.js"></script>
+</body>
+</html>

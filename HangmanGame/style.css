@@ -1,0 +1,158 @@
+body{
+    background:#34495e;
+    color:white;
+}
+
+h1,h3{
+    text-align: center;
+}
+
+.line{
+    margin-top: 100px;
+    width: 12px;
+    height:300px;
+    background:white;
+}
+
+.basis{
+    margin-top: -10px;
+    width: 145px;
+    height:20px;
+    background:white;
+}
+
+.hrizontal{
+    margin-top: -330px;
+    margin-left: 40.6rem;
+    width: 195px;
+    height:20px;
+    background:white;
+}
+
+.vertical{
+    width:20px;
+    height:50px;
+    margin-top: -12px;
+    margin-left: 51.5rem;
+    background:white;
+}
+
+svg{
+    margin-left: 49rem;
+    margin-top: -30px;
+    display: none;
+}
+
+.verticalHomme{
+    width:20px;
+    height:150px;
+    background:white;
+    margin-left: 51.5rem;
+    margin-top: -14px;
+    display:none;
+}
+
+.left-bras{
+    width:20px;
+    height:100px;
+    background:white;
+    transform: rotate(55deg);
+    margin-top: -180px;
+    margin-left: 53.6rem;
+    display:none;
+}
+
+.right-bras{
+    width:20px;
+    height:100px;
+    background:white;
+    transform:rotate(-55deg);
+    margin-left: 49rem;
+    margin-top: -115px;
+    display:none;
+}
+
+.left-foot{
+    width:20px;
+    height:100px;
+    background:white;
+    margin-left:54rem;
+    transform:rotate(135deg);
+    margin-top:52px;
+    display:none;
+}
+
+.right-foot{
+    width:20px;
+    height:100px;
+    background:white;
+    margin-left: 49rem;
+    margin-top: -102px;
+    transform:rotate(-135deg);
+    display: none;
+}
+
+.word{
+    letter-spacing: 42px;
+   margin-top: -15rem;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+span{
+    border-bottom: 4px solid skyblue;
+    margin-left: 10px;
+}
+
+span h3{
+    display: inline-block;
+    color:#34495e;
+}
+
+.endGame{
+    margin-top: -400px;
+    font-weight:bold;
+    background:skyblue;
+    font-size:45px;
+    width:400px;
+    border:1px solid skyblue;
+    border-radius: 10px;
+    text-align: Center;
+    font-style: italic;
+    display: none;
+    z-index:5;
+}
+
+.endGame button{
+    width:200px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border: none;
+    background:white;
+    color:black;
+    text-transform: uppercase;
+    
+}
+
+.endGame button:hover{
+    background:black;
+    color:white;
+}
+
+.find{
+    color:black;
+    background:white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width:240px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-left: -0.5rem;
+    display:block;
+}
+
+.alreadyFind{
+    margin-top: 10rem;
+    margin-left: -65rem;
+}
