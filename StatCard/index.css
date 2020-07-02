@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+:root{
+    --background : #322a62;
+}
+
+
+body{
+    background:var(--background);
+}
+
+#main{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background:#5b4a8f;
+    margin:auto;
+    width:50rem;
+    height:20rem;
+    margin-top: 150px;
+    padding:10px 10px;
+    border-radius: 10px;
+    background:linear-gradient(0.25turn,#5b4a8f,rgb(101, 93, 155),#6459a7);
+}
+
+#main .rightSide{
+    flex-basis: 45%;
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+#main .rightSide .colRight{
+    flex-basis: 50%;
+    text-align: center;
+    color:white;
+    font-family: 'Nunito', sans-serif;
+   }
+   
+   #main .rightSide .colRight h3{
+       font-size: 47px;
+       font-family: 'Nunito', sans-serif;
+   }
+   
+   #main .rightSide .colRight h6{
+       margin-top: -3rem;
+   }
+
+#main .leftSide{
+    flex-basis: 50%;
+}
+
+#main .leftSide h2 ,p{
+    font-family: 'Nunito', sans-serif;
+    color:white;
+}
+
+#main .leftSide button{
+    background: #5b4a8f;
+    padding:10px 10px;
+    color:white;
+    font-family: 'Nunito', sans-serif;
+    border:1px solid rgba(125, 102, 196,0.6);
+    font-size:20px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+#main .leftSide button:hover{
+    color:#5b4a8f;
+    background:white;
+}
