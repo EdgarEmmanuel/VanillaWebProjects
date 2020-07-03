@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>EXPENSE</title>
+    <style>
+        .h3{
+            font-weight: 100;
+            margin-top:7px;
+        }
+
+        .hr{
+            font-weight: bold;
+            width: 200px;
+        }
+
+        input{
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 2px solid black;
+        }
+
+        .submit{
+            background-color: green;
+            color:white;
+            padding: 20px;
+            width: 200px;
+            border: none;
+        }
+    </style>
+</head>
+<body style="background-color: #f7f7f7;">
+    <div class="container text-center" id="mere">
+    <h1 class="">Expense<span style="color:skyblue">Tracker</span></h1>
+    <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">BALANCE</h3>
+    <div class="container display-4 " style="margin-top:-28px;">$ <span 
+        style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+        Verdana, sans-serif;" id="solde">0000.00</span> </div>
+    <div style="background-color: white; width:50%; padding:10px; position:center; margin-top:20px;">
+        <div class="div form-inline">
+            <p style="margin-left: 50px ;"><h1>INCOME</h1> : <h1><span
+                style="font-family:'Times New Roman', Times, serif;color:#67FA02" id="plus">000.00</span></h1></p>
+        </div>
+        <div class="div form-inline">
+            <p style="margin-left: 50px;"><h1>DEPENSE</h1> : <h1><span 
+                style="font-family:'Times New Roman', Times, serif;color:#FA4C20;" id="minus">000.00</span></h1></p>
+        </div>
+    </div>
+    <h3 class="h3">HISTORY</h3>
+    <hr class="hr">
+    <table class="table table-striped">
+        <tbody id="list">
+
+        </tbody>
+    </table>
+    <h3 class="h3">ADD NEW TRANSACTION</h3>
+    <hr class="hr">
+    <form action="" id="form">
+        <label for="">Text</label><br>
+        <input type="text" name="" id="text" placeholder="Enter text..."><br>
+        <label style="margin-top: 6px;" for="">Amount</label><br>
+        <p style="margin-top:-4px;">(negative - expense, positive - income)</p>
+        <input type="number" name="" id="amount" placeholder="Enter Amount..."><br>
+        <input type="submit" value="ADD TRANSACTION" class="submit" id="submit">
+    </form>
+</div>
+        
+ 
+<script type="text/javascript" src="expense.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
