@@ -1,0 +1,92 @@
+/* font google */
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+body{
+    background: #20222f;
+    color:white;
+}
+header{
+    align-items: center;
+    display:flex;
+    color:white;
+}
+
+header h1{
+    font-family: 'Galada', cursive;
+}
+
+header p{
+    margin-left: 800px;
+    font-size: 30px;
+    color:white;
+}
+
+header p i{
+    cursor: pointer;
+}
+
+
+/* start main part */
+
+main{
+    margin-left:200px;
+}
+
+main .social{
+    align-items:center;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+main .social #one ,#two ,#three{
+    border-top-color: skyblue;
+}
+
+main .social #four{
+    border-top-color: #c42a38;
+}
+
+
+main .social .col-div{
+    flex-basis: 20%;
+    border: 2px solid #252b43;
+    text-align: center;
+    background:#252b43;
+    margin:0px 10px;
+    border-radius:10px;
+    padding:10px 10px;
+}
+
+main .social .col-div img{
+    width:1rem;
+}
+
+main .social .col-div h1{
+    color:white;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: -0.4rem;
+}
+
+main .social .col-div span ,p{
+    color:rgba(197, 196, 192,0.3);
+    font-family: 'Galada', cursive;
+}
+
+main .social .col-div p{
+    margin-top: -3rem;
+}
+
+main .social .col-div h6{
+    font-size: 25px;
+    margin-top: -1rem;
+    font-family: 'Galada', cursive;
+}
+
+main .social .col-div #moins{
+    color:red;
+}
+
+main .social .col-div #plus{
+    color:green;
+}
