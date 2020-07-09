@@ -1,0 +1,66 @@
+body{
+    background: #F9FAFB;
+}
+
+main{
+    border: 1px solid #F0F1F2;
+    width:25rem;
+    text-align: center;
+    border-radius:10px;
+    margin: auto;
+    background:white;
+    box-shadow: 2px 2px 22px 1px #F0F1F2;
+}
+
+main h1{
+    font-size:35px;
+    color:black;
+}
+
+main form {
+    height:30rem;
+    padding: 10px 10px;
+}
+
+main form label{
+    margin-left: -200px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+main form input{
+    width:300px;
+    height:1.5rem;
+    border:1px solid #dfd3d3;
+    border-radius:6px;
+    margin-top: 30px;
+}
+
+main form p{
+    margin-top: -0px;
+}
+
+
+main form button {
+    margin-top: 30px;
+    border:1px solid #3F98DB;
+    border-radius: 10px;
+    width:300px;
+    height:2rem;
+    color:white;
+    background:#3F98DB;
+    font-size:10px;
+}
+
+
+main form p{
+    color:red;
+}
+
+/* for the comments under each input fields */
+/* , #two , #three , #four */
+
+main form #one , #two , #three , #four{
+    visibility:hidden;
+}

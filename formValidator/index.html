@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>FORM VALIDATOR</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <h1>REGISTER WITH US </h1>
+        <form action="">
+            <input type="text" name="" id="name" placeholder="Enter username" autocomplete="off"/><br/>
+            <p id="one">username must be at least 3 characters</p>
+
+            <input type="email" name="" id="email" placeholder="Enter email" autocomplete="off" /><br/>
+            <p id="two">invalid email syntax</p>
+
+            <input type="password" name="" id="password" placeholder="Enter password"/><br/>
+            <p id="three">password should have at least 3 characters</p>
+
+            <input type="password" name="" id="cpassword" placeholder="confirm password"/><br/>
+            <p id="four">invalid password confirmation</p>
+
+            <button id="btn">SUBMIT</button>
+        </form>
+    </main>
+
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
