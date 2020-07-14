@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body{
+    background:#dae1e8;
+}
+
+.main{
+    padding:10px 10px;
+    width:70rem;
+    height:auto;
+    background: white;
+    margin-left: 110px;
+    border-radius: 10px;
+}
+
+/* start nav */
+
+.main nav{
+    margin-left: 800px;
+}
+
+.main nav a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Nunito', sans-serif;
+    margin:0px 4px;
+}
+
+/* end nav */
+
+/* just under the nav  */
+
+.main .middle{
+    margin-top: 50px;
+}
+
+.main .middle form{
+    border-bottom: 1px solid rgb(86, 62, 62);
+    width:30%;
+}
+
+.main .middle form input{
+    width:300px;
+    border:none;
+    height:2rem;
+}
+
+.main .middle form input::placeholder{
+    font-size: 20px;
+    color:grey;
+}
+
+.main .middle  button{
+    margin-left: 900px;
+    margin-top: -23rem;
+    padding:10px 10px;
+    background:black;
+    border:1px solid black;
+    color:white;
+    border-radius: 7px;
+    width:200px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+
+/* start for the img */
+
+.main .img{
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.main .img img{
+    width:10rem;
+    flex-basis: 25%;
+    margin:10px 20px;
+    border-radius:10px;
+}
