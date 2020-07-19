@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+:root{
+    --familyFont:'Red Rose', cursive;
+    --colorGreen:#204e58;
+    --secondColor:#102e34;
+    --thirdColor:#ee8a88;
+}
+
+*{
+    margin:0;
+}
+
+/* header part */
+
+header {
+    display: flex;
+    position:sticky;
+    top:0;
+    background: var(--colorGreen);
+    font-family: var(--familyFont);
+    padding: 20px 20px;
+}
+
+header .brand{
+    font-size: 45px;
+    color:white;
+}
+
+header .menu{
+    margin: 20px 200px;
+}
+
+header .menu a{
+    color:white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight:bold;
+}
+
+header button{
+    margin-left: 300px;
+    height:2rem;
+    margin-top: 15px;
+    color:white;
+    font-weight:bold;
+    background:none;
+    border: 2px solid white;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+header button:hover{
+    background: white;
+    color:var(--colorGreen);
+}
+
+/* start for the first section */
+
+
+main{
+    background:var(--colorGreen);
+}
+
+main .section-1{
+  padding: 50px 0px;
+}
+
+main .section-1 .row-section-1{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main .section-1 .row-section-1 .left{
+    flex-basis: 50%;
+    text-align: center;
+    color:white;
+    font-family: var(--familyFont);
+    font-size:25px;
+}
+
+main .section-1 .row-section-1 .left span{
+    color:#ee8a88;
+}
+
+main .section-1 .row-section-1 .right{
+    padding: 10px 0px 2px;
+    text-align: left;
+}
+
+main .section-1 .row-section-1 .right img{
+    width:18rem;
+}
+
+main .section-1 .row-section-1 .right{
+    flex-basis: 50%;
+    color:white;
+    font-family: var(--familyFont);
+}
+
+/* end scetion-1 */
+
+/* start section-2 */
+main .section-2{
+    height:30rem;
+}
+
+main .section-2 .row-section-2{
+    background: var(--secondColor);
+    display:flex;
+    padding: 10px 10px;
+    align-items:center;
+    
+}
+
+main .section-2 .row-section-2 .left{
+    flex-basis:50%;
+    text-align: center;
+    color:white;
+    font-family: var(--familyFont);
+}
+
+main .section-2 .row-section-2 .left img{
+    width:25rem;
+    margin-top: 20px;
+}
+
+main .section-2 .row-section-2 .right{
+    flex-basis:60%;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+main .section-2 .row-section-2 .right .col-right{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    color:white;
+    font-family: var(--familyFont);
+    margin: 20px 0px;
+}
+
+main .section-2 .row-section-2 .right .col-right .text{
+    margin: 0px 20px;
+}
+
+
+main .section-2 .row-section-2 .right .col-right .text h3{
+   color:var(--thirdColor);
+}
+
+/* end section-2 */
+
+/* start section-3 */
+
+main .section-3{
+    padding: 20px 20px;
+    height:40rem;
+}
+
+main .section-3 h1{
+    text-align: center;
+    color:var(--thirdColor);
+    font-family: var(--familyFont);
+    margin-bottom: 50px;
+    margin-top:5rem;
+}
+
+main .section-3 .row-section-3{
+    display:flex;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+main .section-3 .row-section-3 .col-text img{
+    width:3rem;
+    border-radius:50px;
+    margin-top: 40px;
+}
+
+main .section-3 .row-section-3 .col-text{
+    text-align:center;
+    font-family: var(--familyFont);
+    color:white;
+    padding: 0px 20px;
+}
+
+main .section-3 .row-section-3 .col-text h3{
+    margin-top: 30px;
+}
+
+/* end section-3 */
+
+/* start section-4 */
+
+.section-4{
+    background:var(--thirdColor);
+}
+
+.section-4 .row-section-4{
+    display:flex;
+    align-items: center;
+}
+
+.section-4 .row-section-4 .left , .right{
+    flex-basis:50%;
+}
+
+.section-4 .row-section-4 .left{
+    color:var(--colorGreen);
+    text-align: center;
+}
+
+.section-4 .row-section-4 .left button{
+    background:none;
+    border:3px solid white;
+    border-radius:10px;
+    color:var(--secondColor);
+    margin-top:20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.section-4 .row-section-4 .right img{
+    width:30rem;
+}
+
+/* end section-4 */
