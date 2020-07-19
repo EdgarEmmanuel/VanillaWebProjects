@@ -36,3 +36,10 @@ ___
 # Stock Photos Example Interface
 
 ![test](gifs/stock.png)
+
+
+___
+
+# Website Template :wink:
+
+![test](gifs/template.gif)
