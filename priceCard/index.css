@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+
+
+
+:root{
+    --bacground : rgba(247, 247, 255,0.5);
+    --familyFont :'Yanone Kaffeesatz', sans-serif;
+}
+
+
+body{
+    background: var(--bacground);
+}
+
+
+/* button toggle at the top */
+
+.btn{
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.btn i{
+    cursor:pointer;
+}
+
+.div {
+    margin-top: 50px;
+}
+
+.div .__row {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.div .__row .__col{
+    flex-basis: 30%;
+    width:100%;
+    background: #FFF;
+    margin: 0px 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: var(--familyFont);
+    text-align: center;
+}
+
+.div .__row .__col p{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size:30px;
+}
+
+.div .__row .__col h6{
+    font-size:30px;
+}
+
+.div .__row .__col h1{
+    margin-top: -3rem;
+    font-size: 70px;
+}
+
+.div .__row .__col button{
+    width:300px;
+    background: #8c91ea;
+    color:white;
+    border: 1px solid #8c91ea;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.div .__row .__col button:hover{
+    background: white;
+    color:#8c91ea;
+    border: 1px solid #8c91ea;;
+}
+
+.div .__row #chef{
+    background: #8c91ea;
+    color:white;
+}
+
+.div .__row #chef p{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.div .__row #chef button{
+    background: white;
+    color:#8c91ea;
+    border: 1px solid white;
+}
+
+.div .__row #chef button:hover{
+    background: #8c91ea;
+    color:white;
+    border: 1px solid white;
+}

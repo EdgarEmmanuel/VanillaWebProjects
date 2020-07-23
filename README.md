@@ -43,3 +43,11 @@ ___
 # Website Template :wink:
 
 ![test](gifs/template.gif)
+
+
+___
+
+# :rose: CARD PRICE :rose:
+
+
+![test](gifs/priceCard.gif)
