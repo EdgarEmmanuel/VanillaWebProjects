@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root{
+    --fontFamily:'Roboto', sans-serif;
+    --color-Blue:#2d314e;
+    --color-green:#64cb7f;
+    --thirdColor:#57bbc9;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    color:red;
+}
+
+nav{
+    display:flex;
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-family: var(--fontFamily);
+}
+
+nav .brand img{
+    width:10rem;
+}
+
+nav .menu{
+    margin-left: 250px;
+}
+
+nav .menu a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+}
+
+nav .menu a:hover{
+    color:var(--color-green);
+}
+
+nav button{
+    padding: 10px 10px;
+    font-weight: bold;
+    cursor:pointer;
+    margin-left: 250px;
+    background: linear-gradient(0.25turn , var(--color-green),var(--thirdColor));
+    color:white;
+    border: 1px solid var(--color-green);
+    border-radius: 10px;
+}
+
+/* start section-1 */
+
+.section-1 .__row1{
+    display:flex;
+    align-items: center;
+}
+
+.section-1 .__row1 .__left{
+    font-family: var(--fontFamily);
+}
+
+.section-1 .__row1 .__left h1{
+    color:black;
+}
+
+.section-1 .__row1 .__left p{
+    margin-top: 20px;
+}
+
+.section-1 .__row1 button{
+    padding: 10px 10px;
+    font-weight: bold;
+    cursor:pointer;
+    margin-left: 230px;
+    background: linear-gradient(0.25turn , var(--color-green),var(--thirdColor));
+    color:white;
+    border: 1px solid var(--color-green);
+    border-radius: 10px;
+}

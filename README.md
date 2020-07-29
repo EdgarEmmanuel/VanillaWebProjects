@@ -51,3 +51,10 @@ ___
 
 
 ![test](gifs/priceCard.gif)
+
+
+___
+
+# :heart: INTERFACE BANK :heart:
+
+![test](gifs/easyT.png)
