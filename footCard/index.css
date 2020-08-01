@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
+
+:root{
+--font: 'Recursive', sans-serif;
+--bac:#d9e2e8;
+}
+
+body{
+  background: var(--bac);
+}
+
+.first{
+    width:60rem;
+    margin: auto;
+    background:white;
+    display:flex;
+    margin-top: 30px;
+    padding: 60px 20px;
+    border-radius: 10px;
+}
+
+.first .__colleft{
+    font-weight:bold;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.first .__colleft button{
+    color:pink;
+    background:black;
+    border:1px solid black;
+    width:300px;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.first .__colleft h1{
+    font-size: 50px;
+}
+
+.first .__colleft label{
+    margin-top: 20px;
+}
+
+.first .__colleft select{
+    width:200px;
+}
+
+.first .__colleft button:hover{
+    background:pink;
+    color:black;
+    border-color: pink;
+}
+
+.first .__colright{
+    flex-basis: 50%;
+    padding:30px 20px;
+    text-align: center;
+}
+
+.first .__colright img{
+    width:20rem;
+    transform:rotate(-15deg);
+}
