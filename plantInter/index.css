@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
+
+
+:root{
+    --family:'Recursive',sans-serif;
+    --backColor:#e1f2f0;
+    --green:#61bc62;
+}
+
+body{
+    background: var(--backColor);
+}
+
+
+.divFront{
+    width:21rem;
+    background:rgba(255, 255, 255,1);
+    margin: auto;
+    border-radius: 20px;
+    height: 26rem;
+    margin-top: 50px;
+}
+
+.divFront .up{
+    background:white;
+    padding: 10px 10px;
+}
+
+.divFront .up h1{
+    width:76px;
+    font-family: var(--family);
+    color:#1b444a;
+}
+
+.divFront .up p{
+    font-family: var(--family);
+    color:#1b444a;
+}
+
+.divFront .bottom img{
+    width:21rem;
+    position: absolute;
+    height:15rem;
+}
+
+.divFront .bottom .button{
+    position: relative;
+    text-align: center;
+    margin:auto;
+}
+
+.divFront .bottom .button button{
+    width:200px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.divFront .bottom .button button:first-of-type{
+    color:white;
+    margin-top: 4rem;
+    margin-bottom: 30px;
+    background:var(--green);
+    border: 1px solid var(--green);
+}
+
+
+.divFront .bottom .button button:last-of-type{
+    color:var(--green);
+    margin-top: 4rem;
+    margin-bottom: 30px;
+    background:white;
+    border: 1px solid white;
+}
