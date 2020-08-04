@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+:root{
+    --left:#fdf6f7;
+    --font:'Gloria Hallelujah', cursive;
+    --shirt:#f6c6ae;
+}
+
+body{
+    background:#faded0;
+}
+
+.girl{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* width:70rem; */
+    margin:100px 300px 0px  300px;
+    background: linear-gradient(0.25turn ,#f6c6ae  , white , var(--left));
+    border-radius: 10px;
+}
+
+.girl .__left {
+   font-family: var(--font);
+   text-align: center;
+   font-weight: bold;
+   flex-basis: 50%;
+   padding:0px 0px 10px 0px;
+}
+
+.girl .__left ._text img{
+    width:6rem;
+}
+
+.girl .__left ._text input{
+    width:300px;
+    border-radius:10px;
+    border:2px solid black;
+    padding: 10px 0px;
+}
+
+.girl .__left ._text input::placeholder{
+    font-family: var(--font);
+}
+
+.girl .__right img{
+    margin-left: 100px;
+}
+
+.girl .__right{
+    flex-basis: 50%;
+}
