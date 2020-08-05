@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+:root{
+    --font: 'Chewy', cursive;
+    --colorFirst:#f1a6b2;
+    --colorSec:#8d74b8
+}
+
+
+body{
+    margin:0;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background:white;
+}
+
+.header a{
+    text-decoration: none;
+    font-family: var(--font);
+    color:black;
+}
+
+.header a:hover{
+    color:var(--colorSec);
+}
+
+.header .brand{
+    color:black;
+    font-family: var(--font);
+    margin-left: 50px;
+}
+
+.header .menu , .header .icons{
+    margin: 0px 60px;
+}
+
+.header .menu a{
+    margin: 0px 30px;
+}
+
+.header .icons a{
+    margin: 0px 30px;
+}
+
+
+/* main part */
+
+.main{
+    display:flex;
+    align-items:center;
+    margin-top:30px;
+}
+
+.main .__left{
+    flex-basis:50%;
+    text-align: center;
+}
+
+.main .__left p{
+    font-family: var(--font);
+    color:black;   
+}
+
+.main .__left p:first-of-type{
+    font-size: 65px;
+}
+
+.main .__left p:first-of-type span:first-of-type{
+    color:var(--colorFirst);
+}
+
+.main .__left p:first-of-type span:last-of-type{
+    color:var(--colorSec);
+}
+
+.main .__left p:last-of-type{
+    font-size: 24px;
+}
+
+.main .__left button{
+    width:300px;
+    padding: 7px 10px;
+    background:linear-gradient(0.25turn , var(--colorFirst) , var(--colorSec));
+    border-radius: 10px;
+    border-color: linear-gradient(0.25turn , var(--colorFirst) , var(--colorSec));
+}
+
+.main .__right{
+    flex-basis: 50%;
+}
+
+.main .__right img{
+    width:40rem;
+}
