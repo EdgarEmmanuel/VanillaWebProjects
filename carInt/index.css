@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+
+:root{
+    --font : 'Bad Script', cursive;
+}
+
+.head{
+    padding: 0px 10px;
+    display:flex;
+    align-items: center;
+}
+
+.head .brand{
+    font-family: var(--font);
+    font-weight: bold;
+}
+
+.head .menu{
+    margin-left: 600px;
+    font-family: var(--font);
+    align-items: center;
+    display:flex;
+    font-weight: bold;
+}
+
+.head .menu .left{
+    flex-basis: 50%;
+}
+
+.head .menu .right{
+    padding:0px 6px;
+    border-left: 2px solid black;
+    flex-basis: 50%;
+}
+
+/* =================main======================== */
+
+.main{
+    margin: auto;
+}
+
+.main .section-1{
+    text-align: center;
+    overflow: hidden;
+}
+
+.main .section-1 img{
+    width:50rem;
+    width:50rem;
+}
+
+
+.main .section-2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main .section-2 button{
+    width:50px;
+    height:30px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main .section-2 #red{
+    background: red;
+    color:red;  
+}
+
+.main .section-2 #grey{
+    background:#6a6052;
+    color:#6a6052;
+}
+
+
+.main .section-2 #blue{
+    background:#19529b;
+    color:#19529b;
+}
+
+.main .section-0-5 {
+    text-align: center;
+    font-size: 56px;
+}
+
+.main .section-0-5 i{
+    cursor: pointer;
+    margin:0px 9px 0px 0px  
+}
